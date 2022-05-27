@@ -1,0 +1,720 @@
+/*=========================
+extra small device satrts
+==========================*/
+@media(max-width:575px){
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar {
+        top: 30px;
+    }
+    .navbar .navbar-brand img {
+        width: 60% !important;
+        margin-left: 2px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        margin-left: -71px;
+        margin-top: 4px;
+    }
+    /* .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 17px;
+        margin-left: 108px;
+    } */
+    /*====================
+       nav part starts
+    =======================*/
+
+    /*====================
+       banner part starts
+    =======================*/
+    #banner {
+        padding-bottom: 80px !important;
+    }
+    #banner .banner-text {
+        padding-top: 140px;
+    }
+    #banner .banner-text h2 {
+        font-size: 40px;
+        margin-left: 17px;
+    }
+    #banner .banner-text p {
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    /*====================
+       banner part ends
+    =======================*/
+
+    /*======================
+      menu part starts
+    =======================*/
+    #menu {
+        padding-top: 70px;
+        padding-bottom: 0px !important;
+    }
+    #menu .menu-head {
+        padding-bottom: 60px !important;
+    }
+    #menu .menu-head h4 {
+        font-size: 30px;
+    }
+    #menu .menu-item {
+        margin-bottom: 40px !important;
+    }
+    #menu .menu-item h4 {
+        margin-top: 20px;
+        margin-bottom: 20px !important;
+        font-size: 25px;
+    }
+    #menu .menu-item p {
+        margin-bottom: 20px !important;
+        font-size: 18px;
+    }
+    #menu .btn {
+        padding: 6px 0px;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 65px;
+        width: 160px;
+        margin-bottom: 60px !important;
+    }
+    /*====================
+        menu  part ends
+    =======================*/
+
+    /*======================
+       discount part starts
+    =======================*/
+    #discount {
+        margin-top: -90px;
+    }
+    #discount .discount-text {
+        margin-left: 40px;
+        margin-top: 45px;
+    }
+    #discount .discount-text h4 {
+        font-size:28px;
+    }
+    #discount .discount-text p {
+        font-size: 16px;
+        margin-top: 20px;
+        padding-right: 26px;
+    }
+    #discount .discount-text .btn {
+        margin-top: 30px;
+        width: 158px;
+    }
+    #discount .discount-item{
+        margin-top:50px;
+    }
+    /*====================
+       discount part ends
+    =======================*/
+
+    /*====================
+      order part starts
+    =======================*/
+    #order {
+        padding-top: 60px;
+        padding-bottom: 45px !important;
+    }
+    #order .order-head h4 {
+        margin-bottom: 60px !important;
+        font-size: 28px;
+    }
+    #order .order-item{
+        margin-bottom: 30px !important;
+    }
+    #order .order-item .number {
+        width: 75px;
+        height: 75px;
+        margin-left: 110px;
+    }
+    #order .order-item .number h5 {
+        font-size: 30px;
+        line-height: 75px;
+    }
+    #order .order-item h4 {
+        margin-top: 30px;
+        margin-bottom: 30px !important;
+    }
+    /*======================
+      order part ends
+    =======================*/
+
+    /*=====================
+      delivery part starts
+    =======================*/
+    #delivery {
+        height: 370px;
+    }
+    #delivery .delivery-text h4 {
+        font-size: 33px;
+    }
+    #delivery .delivery-text {
+        margin-top: 50px;
+        margin-bottom: 0px !important;
+    }
+    #delivery .delivery-text p {
+        margin-top: 20px;
+        margin-bottom: 30px !important;
+        padding: 0 0px;
+        font-size: 15px;  
+    }
+    #delivery .delivery-text .btn {
+        width: 165px;
+        font-size: 14px;
+        margin-top:20px;
+    }
+    /*======================
+      delivery part ends
+    =======================*/
+
+    /*========================
+      testimonial part starts
+    =========================*/
+    #testimonial {
+        padding-top: 50px;
+        padding-bottom: 40px !important;
+    }
+    #testimonial .test-item img {
+        margin-left: 423px;
+    }
+    #testimonial .test-item p {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+        padding: 0 0px;
+        font-size: 16px;
+    }
+    #testimonial .test-item h4 {
+        margin-bottom: 40px !important;
+        font-size: 23px;
+    }
+    #testimonial .test-item a {
+        margin-right: 16px;
+    }
+    #testimonial .test-item a i {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        line-height: 50px;
+    }
+    /*======================
+       testimonial part ends
+    =======================*/
+
+    /*====================
+      footer part starts
+    =======================*/
+    footer {
+        padding-top: 50px;
+        padding-bottom: 60px !important;
+    }
+    footer .footer-about p {
+        margin-top: 30px;
+        margin-right: 0px;
+        font-size: 15px;
+        margin-bottom:30px !important;
+    }
+    footer .footer-text ul {
+        margin-top: 28px;
+    }
+    footer .footer-text ul li {
+        margin-bottom: 2px !important;
+        font-size: 14px;
+    }
+    /*====================
+      footer  part ends
+    =======================*/
+}
+/*=========================
+extra small device ends
+==========================*/
+
+/*========================
+ small device css starts
+=========================*/
+@media (min-width:576px) and (max-width:767px){
+       /*====================
+       nav part starts
+    =======================*/
+    .navbar {
+        top: 30px;
+    }
+    .navbar .navbar-brand img {
+        width: 60% !important;
+        margin-left: 2px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        margin-left: -71px;
+        margin-top: 4px;
+    }
+    /* .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 17px;
+        margin-left: 108px;
+    } */
+    /*====================
+       nav part starts
+    =======================*/
+
+    /*====================
+       banner part starts
+    =======================*/
+    #banner {
+        padding-bottom: 80px !important;
+    }
+    #banner .banner-text {
+        padding-top: 140px;
+    }
+    #banner .banner-text h2 {
+        font-size: 40px;
+        margin-left: 3px;
+    }
+    #banner .banner-text h2:last-of-type {
+        padding-top: 0px;
+        margin-left: 25px;
+    }
+    #banner .banner-text p {
+        margin-top: 20px;
+        margin-left: 17px;
+        font-size: 18px;
+    }
+    /*====================
+       banner part ends
+    =======================*/
+
+    /*======================
+      menu part starts
+    =======================*/
+    #menu {
+        padding-top: 70px;
+        padding-bottom: 0px !important;
+    }
+    #menu .menu-head {
+        padding-bottom: 60px !important;
+    }
+    #menu .menu-head h4 {
+        font-size: 30px;
+    }
+    #menu .menu-item {
+        margin-bottom: 40px !important;
+    }
+    #menu .menu-item h4 {
+        margin-top: 20px;
+        margin-bottom: 20px !important;
+        font-size: 25px;
+    }
+    #menu .menu-item p {
+        margin-bottom: 20px !important;
+        font-size: 17px;
+    }
+    #menu .btn {
+        padding: 6px 0px;
+        font-size: 18px;
+        margin-top: 196px;
+        margin-left: 57px;
+        width: 160px;
+        margin-bottom: 60px !important;
+    }
+    /*====================
+        menu  part ends
+    =======================*/
+
+    /*======================
+       discount part starts
+    =======================*/
+    #discount {
+        margin-top: -90px;
+        padding-bottom: 50px !important;
+    }
+    #discount .discount-text {
+        margin-left: 40px;
+        margin-top: 45px;
+    }
+    #discount .discount-text h4 {
+        font-size: 25px;
+    }
+    #discount .discount-text p {
+        font-size: 16px;
+        margin-top: 5px;
+        padding-right: 0px;
+    }
+    #discount .discount-text .btn {
+        margin-top: 15px;
+        width: 158px;
+    }
+    #discount .discount-item{
+        margin-top:50px;
+    }
+    /*====================
+       discount part ends
+    =======================*/
+
+    /*====================
+      order part starts
+    =======================*/
+    #order {
+        padding-top: 60px;
+        padding-bottom: 45px !important;
+    }
+    #order .order-head h4 {
+        margin-bottom: 60px !important;
+        font-size: 28px;
+    }
+    #order .order-item{
+        margin-bottom: 30px !important;
+    }
+    #order .order-item .number {
+        width: 75px;
+        height: 75px;
+        margin-left: 38px;
+    }
+    #order .order-item .number h5 {
+        font-size: 30px;
+        line-height: 75px;
+    }
+    #order .order-item h4 {
+        margin-top: 30px;
+        margin-bottom: 30px !important;
+        font-size: 24px;
+    }
+    #order .order-item p {
+        padding: 0 4px;
+    }
+    /*======================
+      order part ends
+    =======================*/
+
+    /*=====================
+      delivery part starts
+    =======================*/
+    #delivery {
+        height: 370px;
+    }
+    #delivery .delivery-text h4 {
+        font-size: 33px;
+    }
+    #delivery .delivery-text {
+        margin-top: 50px;
+        margin-bottom: 0px !important;
+    }
+    #delivery .delivery-text p {
+        margin-top: 20px;
+        margin-bottom: 30px !important;
+        padding: 0 0px;
+        font-size: 15px;  
+    }
+    #delivery .delivery-text .btn {
+        width: 165px;
+        font-size: 14px;
+        margin-top:20px;
+    }
+    /*======================
+      delivery part ends
+    =======================*/
+
+    /*========================
+      testimonial part starts
+    =========================*/
+    #testimonial {
+        padding-top: 50px;
+        padding-bottom: 40px !important;
+    }
+    #testimonial .test-item img {
+        margin-left: 238px;
+    }
+    #testimonial .test-item p {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+        padding: 0 0px;
+        font-size: 16px;
+    }
+    #testimonial .test-item h4 {
+        margin-bottom: 40px !important;
+        font-size: 23px;
+    }
+    #testimonial .test-item a {
+        margin-right: 16px;
+    }
+    #testimonial .test-item a i {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        line-height: 50px;
+    }
+    /*======================
+       testimonial part ends
+    =======================*/
+
+    /*====================
+      footer part starts
+    =======================*/
+    footer {
+        padding-top: 50px;
+        padding-bottom: 60px !important;
+    }
+    footer .footer-about p {
+        margin-top: 30px;
+        margin-right: 0px;
+        font-size: 15px;
+        margin-bottom:30px !important;
+    }
+    footer .footer-text ul {
+        margin-top: 28px;
+    }
+    footer .footer-text ul li {
+        margin-bottom: 2px !important;
+        font-size: 14px;
+    }
+    /*====================
+      footer  part ends
+    =======================*/
+}
+/*========================
+ small device css ends
+=========================*/
+
+/*========================
+ medium device css starts
+=========================*/
+@media (min-width:768px) and (max-width:991px){
+     /*====================
+       nav part starts
+    =======================*/
+    .navbar {
+        top: 30px;
+    }
+    .navbar .navbar-brand img {
+        width: 60% !important;
+        margin-left: 2px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        margin-left: -71px;
+        margin-top: 4px;
+    }
+    /* .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 17px;
+        margin-left: 108px;
+    } */
+    /*====================
+       nav part starts
+    =======================*/
+
+    /*====================
+       banner part starts
+    =======================*/
+    #banner {
+        padding-bottom: 80px !important;
+    }
+    #banner .banner-text {
+        padding-top: 140px;
+    }
+    #banner .banner-text h2 {
+        font-size: 40px;
+        margin-left: 45px;
+    }
+    #banner .banner-text h2:last-of-type {
+        margin-left: 67px;
+    }
+    #banner .banner-text p {
+        margin-top: 25px;
+        margin-left: 64px;
+        font-size: 18px;
+    }
+    /*====================
+       banner part ends
+    =======================*/
+
+    /*======================
+      menu part starts
+    =======================*/
+    #menu {
+        padding-top: 70px;
+        padding-bottom: 0px !important;
+    }
+    #menu .menu-head {
+        padding-bottom: 60px !important;
+    }
+    #menu .menu-head h4 {
+        font-size: 30px;
+    }
+    #menu .menu-item {
+        margin-bottom: 40px !important;
+    }
+    #menu .menu-item h4 {
+        margin-top: 20px;
+        margin-bottom: 20px !important;
+        font-size: 25px;
+    }
+    #menu .menu-item p {
+        margin-bottom: 20px !important;
+        font-size: 14px;
+    }
+    #menu .btn {
+        padding: 6px 0px;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 273px;
+        width: 160px;
+        margin-bottom: 60px !important;
+    }
+    /*====================
+        menu  part ends
+    =======================*/
+
+    /*======================
+       discount part starts
+    =======================*/
+    #discount {
+        margin-top: -80px;
+        margin-bottom: 70px !important;
+    }
+    #discount .discount-text {
+        margin-left: 45px;
+        margin-top: 78px;
+    }
+    #discount .discount-text h4 {
+        font-size: 32px;
+    }
+    #discount .discount-text p {
+        font-size: 18px;
+        margin-top: 20px;
+        padding-right: 26px;
+    }
+    #discount .discount-text .btn {
+        margin-top: 30px;
+        width: 158px;
+    }
+    #discount .discount-item{
+        margin-top:50px;
+    }
+    /*====================
+       discount part ends
+    =======================*/
+
+    /*====================
+      order part starts
+    =======================*/
+    #order {
+        padding-top: 60px;
+        padding-bottom: 45px !important;
+    }
+    #order .order-head h4 {
+        margin-bottom: 60px !important;
+        font-size: 28px;
+    }
+    #order .order-item{
+        margin-bottom: 30px !important;
+    }
+    #order .order-item .number {
+        width: 75px;
+        height: 75px;
+        margin-left: 75px;
+    }
+    #order .order-item .number h5 {
+        font-size: 30px;
+        line-height: 75px;
+    }
+    #order .order-item h4 {
+        margin-top: 30px;
+        margin-bottom: 30px !important;
+    }
+    /*======================
+      order part ends
+    =======================*/
+
+    /*=====================
+      delivery part starts
+    =======================*/
+    #delivery {
+        height: 370px;
+    }
+    #delivery .delivery-text h4 {
+        font-size: 33px;
+    }
+    #delivery .delivery-text {
+        margin-top: 50px;
+        margin-bottom: 0px !important;
+    }
+    #delivery .delivery-text p {
+        margin-top: 20px;
+        margin-bottom: 30px !important;
+        padding: 0 100px;
+        font-size: 15px;
+    }
+    #delivery .delivery-text .btn {
+        width: 165px;
+        font-size: 14px;
+        margin-top:20px;
+    }
+    /*======================
+      delivery part ends
+    =======================*/
+
+    /*========================
+      testimonial part starts
+    =========================*/
+    #testimonial {
+        padding-top: 50px;
+        padding-bottom: 40px !important;
+    }
+    #testimonial .test-item img {
+        margin-left: 320px;
+    }
+    #testimonial .test-item p {
+        margin-top: 30px;
+        margin-bottom: 35px !important;
+        padding: 0 0px;
+        font-size: 16px;
+    }
+    #testimonial .test-item h4 {
+        margin-bottom: 40px !important;
+        font-size: 23px;
+    }
+    #testimonial .test-item a {
+        margin-right: 16px;
+    }
+    #testimonial .test-item a i {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        line-height: 50px;
+    }
+    /*======================
+       testimonial part ends
+    =======================*/
+
+    /*====================
+      footer part starts
+    =======================*/
+    footer {
+        padding-top: 50px;
+        padding-bottom: 60px !important;
+    }
+    footer .footer-about p {
+        margin-top: 30px;
+        margin-right: 0px;
+        font-size: 18px;
+        margin-bottom: 75px !important;
+    }
+    footer .footer-text ul {
+        margin-top: 28px;
+    }
+    footer .footer-text ul li {
+        margin-bottom: 2px !important;
+        font-size: 17px;
+    }
+    /*====================
+      footer  part ends
+    =======================*/ 
+}
+/*========================
+ medium device css ends
+=========================*/

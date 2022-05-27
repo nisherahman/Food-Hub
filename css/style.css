@@ -1,0 +1,300 @@
+:root{
+    --ff1:'Ubuntu', sans-serif;
+    --ff2: 'Lato', sans-serif;
+    --brand:#7287ae;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    vertical-align: middle;
+}
+/* common css ends */
+
+/* font family part starts */
+.ubuntu-med{
+    font-family:var(--ff1);
+    font-weight:500;
+}
+.ubuntu-bold{
+    font-family:var(--ff1);
+    font-weight:700;
+}
+.lato-reg{
+    font-family:var(--ff2);
+    font-weight:400;
+}
+.lato-sbold{
+    font-family:var(--ff2);
+    font-weight:600;
+}
+/* font family part starts */
+
+/* fontsize part starts */
+.fs-20{
+    font-size:20px;
+}
+.fs-24{
+    font-size:24px;
+}
+/* fontsize part ends */
+
+
+/* navbar part starts */
+.navbar{
+    position: absolute;
+    top:72px;
+    left:0;
+    width:100%;
+    z-index:99999;
+}
+.navbar-brand{
+    padding:0;
+}
+.navbar-nav {
+	margin-left: 307px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: 49px;
+    transition:all linear 0.4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color:#333333;
+}
+/* navbar part ends */
+
+/* banner part starts */
+#banner{
+    background: var(--brand);
+    padding-bottom: 172px !important;
+}
+#banner .banner-text {
+	padding-top: 240px;
+}
+#banner .banner-text h2{
+    font-size:66px;
+}
+#banner .banner-text h2:last-of-type {
+	padding-top:0px;
+	margin-left: 33px;
+}
+#banner .banner-text p{
+    margin-top: 30px;
+}
+/* banner part ends */
+
+/* menu part starts */
+#menu {
+	background: #e4edc2;
+	padding-top: 120px;
+	padding-bottom: 100px !important;
+    margin-bottom:100px !important;
+}
+#menu .menu-head{
+    color:#7287ae;
+    padding-bottom:100px !important;
+}
+#menu .menu-head h4{
+    font-size:35px;
+}
+#menu .menu-item{
+    background:#fff;
+    padding-bottom:40px !important;
+}
+#menu .menu-item h4{
+    margin-left:25px;
+    margin-top:25px;
+    margin-bottom:30px !important;
+    color:#504f4f;
+    font-size:30px;
+}
+#menu .menu-item p{
+    margin-left:25px;
+    margin-bottom:45px !important;
+    color:#504f4f;
+    font-size:22px;
+}
+#menu .menu-item h5{
+    color:#565656;
+    margin-left:25px;
+}
+#menu .menu-item h5 span{
+    margin-right:8px;
+    color:#565656;
+}
+#menu .btn {
+    padding:8px 0px;
+	border-radius: 25px;
+	font-size: 20px;
+	background: #7287ae;
+	margin-top: 100px;
+	margin-left: 435px;
+	width: 242px;
+    transition:all linear 0.4s;
+}
+#menu .btn:hover{
+    background:#565656;
+}
+/* menu part  ends */
+
+/* discount part starts */
+#discount .discount-text{
+    background:#fff;
+    margin-left:60px;
+    margin-top:160px;
+}
+#discount .discount-text h4{
+    color:#333333;
+    font-size:38px;
+}
+#discount .discount-text p {
+	color: #333333;
+	margin-top: 40px;
+	padding-right: 80px;
+}
+#discount .discount-text .btn{
+    margin-top:40px;
+    background:#7287ae;
+    padding:8px 0px;
+	border-radius: 25px;
+    width: 200px;
+    transition:all linear 0.4s;
+}
+#discount .discount-text .btn:hover{
+    background:#565656;
+}
+/* discount part  ends */
+
+/* order part starts */
+#order{
+    background: #7287ae;
+    padding-top:92px;
+    padding-bottom:132px !important;
+}
+#order .order-head h4{
+    margin-bottom:90px !important;
+    font-size:38px;
+}
+#order .order-item .number {
+	width: 104px;
+	height: 104px;
+	background: #fff;
+	border-radius: 50%;
+	margin-left: 129px;
+    transition:all linear 0.4s;
+}
+#order .order-item .number:hover{
+    background: #e4edc2;;
+}
+#order .order-item .number h5{
+    color:#7287ae;
+    font-size:40px;
+    line-height:104px;
+    text-align: center;
+}
+#order .order-item h4 {
+	margin-top: 60px;
+	margin-bottom: 60px !important;
+	font-size: 30px;
+}
+#order .order-item p{
+    padding: 0 15px;
+}
+/* order  part  ends */
+
+/* delivery part  starts */
+#delivery {
+	background: url(../images/delivery.png) no-repeat center/cover;
+	height: 584px;
+}
+#delivery .delivery-text{
+    margin-top:135px;
+    margin-bottom:140px !important;
+}
+#delivery .delivery-text h4{
+    font-size:50px;
+    color:#7287ae;
+}
+#delivery .delivery-text p {
+	color: #7287ae;
+	margin-top: 40px;
+	margin-bottom: 80px !important;
+	padding: 0 296px;
+}
+#delivery .delivery-text .btn{
+    background:#7287ae;
+    padding:8px 0px;
+	border-radius: 25px;
+    width: 200px;
+    transition:all linear 0.4s;
+}
+#delivery .delivery-text .btn:hover{
+    background:#565656;
+}
+/* delivery part  ends */
+
+/*  testimonial part starts */
+#testimonial{
+    background:#e4edc2;
+    padding-top:110px;
+    padding-bottom:45px !important;
+}
+#testimonial .test-item img{
+    margin-left: 520px;
+}
+#testimonial .test-item p {
+	margin-top: 60px;
+	margin-bottom: 60px !important;
+	padding: 0 287px;
+    font-size: 21px;
+    color:#7287ae;
+}
+#testimonial .test-item h4{
+    color:#7287ae;
+    margin-bottom:70px !important;
+}
+#testimonial .test-item  a i{
+    width:65px;
+    height:65px;
+    background:#7287ae;
+    border-radius:50%;
+    font-size:30px;
+    line-height:65px;
+    text-align: center;
+    color:#fff;
+    transition:all linera 0.4s;
+}
+#testimonial .test-item  a i:hover{
+    background:#fff;
+    color:#7287ae;
+}
+#testimonial .test-item  a{
+    margin-right:32px;
+}
+/* testimonial part  ends */
+
+/* footer part starts */
+footer{
+    background: #7287ae;
+    padding-top:90px;
+    padding-bottom:120px !important;
+}
+footer .footer-about p {
+	margin-top: 50px;
+	margin-right: 190px;
+}
+footer .footer-text ul{
+    margin-top: 52px;
+}
+footer .footer-text ul li{
+    margin-bottom: 7px !important;
+}
+/*  footer part  ends */
